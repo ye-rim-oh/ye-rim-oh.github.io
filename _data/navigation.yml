@@ -1,9 +1,11 @@
 main:
-  - title: "Home"
+  - title: "홈"
     url: /
-  - title: "Introduction"
+  - title: "소개"
     url: /about/
-  - title: "Article"
+  - title: "전체 글"
     url: /year-archive/
-  - title: "Tags"
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
     url: /tags/

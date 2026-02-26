@@ -20,7 +20,7 @@
 
 ### 사이트 주소
 
-- `https://ye-rim-oh.github.io/home/`
+- `https://ye-rim-oh.github.io/`
 
 ## EN
 
@@ -42,4 +42,4 @@
 
 ### Site URL
 
-- `https://ye-rim-oh.github.io/home/`
+- `https://ye-rim-oh.github.io/`

@@ -27,19 +27,19 @@ classes: wide
 
   <div class="home-card-grid">
     <a class="home-card" href="{{ '/year-archive/' | relative_url }}">
-      <span class="home-card__label">Archive</span>
+      <span class="home-card__label">Posts</span>
       <h2>글 모아보기</h2>
       <p>전체 글을 연도 기준으로 확인하고 최근 작성한 기록을 빠르게 찾습니다.</p>
     </a>
 
     <a class="home-card" href="{{ '/categories/' | relative_url }}">
-      <span class="home-card__label">Categories</span>
+      <span class="home-card__label">Category</span>
       <h2>주제별 정리</h2>
       <p>카테고리 기준으로 프로젝트, 공부 노트, 메모를 나눠서 관리합니다.</p>
     </a>
 
     <a class="home-card" href="{{ '/tags/' | relative_url }}">
-      <span class="home-card__label">Tags</span>
+      <span class="home-card__label">Tag</span>
       <h2>태그 탐색</h2>
       <p>세부 키워드 중심으로 탐색할 수 있도록 태그 페이지를 같이 사용합니다.</p>
     </a>
