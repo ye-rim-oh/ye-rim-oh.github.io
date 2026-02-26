@@ -27,7 +27,7 @@ GradCafe에 제출된 정치학 PhD 어드미션 데이터를 2020년부터 2026
   src="https://z25die-0-0.shinyapps.io/gradcafe-master/"
   title="GradCafe Shiny Dashboard"
   width="100%"
-  height="920"
+  height="720"
   style="border: 1px solid #ddd; border-radius: 8px; background: #fff;">
 </iframe>
 
