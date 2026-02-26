@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import url("https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css");
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Apply Pretendard across the site while preserving monospace in code blocks */
+body,
+button,
+input,
+select,
+textarea,
+.greedy-nav,
+.masthead,
+.sidebar,
+.page,
+.archive,
+.pagination,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
