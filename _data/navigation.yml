@@ -1,7 +1,7 @@
 main:
   - title: "CV"
     url: /
-  - title: "메모"
+  - title: "Notes"
     url: /notes/
-  - title: "태그"
+  - title: "Tags"
     url: /tags/

@@ -1,5 +1,5 @@
 ---
-title: "메모"
+title: "Notes"
 permalink: /notes/
 layout: posts
 author_profile: true
