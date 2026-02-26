@@ -3,11 +3,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "contrast"
 
 locale: "ko-KR"
-title: "YERIM LOG"
+title: "Yerim Oh"
 title_separator: "|"
-subtitle: "portfolio, projects, and notes"
-name: "예림"
-description: "예림의 포트폴리오, 프로젝트 기록, 공부 노트를 정리하는 공간"
+subtitle: "notes"
+name: "Yerim Oh"
+description: "메모를 정리하는 공간"
 url: "https://ye-rim-oh.github.io"
 baseurl: ""
 repository: "ye-rim-oh/ye-rim-oh.github.io"
@@ -20,8 +20,8 @@ search: true
 enable_copy_code_button: true
 
 author:
-  name: "예림"
-  bio: "프로젝트와 공부 기록을 꾸준히 정리합니다."
+  name: "Yerim Oh"
+  bio: "메모를 기록합니다."
   location: "Seoul, South Korea"
   links:
     - label: "GitHub"
