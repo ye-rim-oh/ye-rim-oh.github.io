@@ -1,0 +1,213 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Home page custom styling (contrast skin-friendly) */
+.layout--home .page__content > .home-shell {
+  margin: 0 0 2rem;
+}
+
+.home-hero {
+  position: relative;
+  padding: 1.25rem 1.25rem 1.4rem;
+  margin: 0 0 1.25rem;
+  color: #fff;
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.15), transparent 48%),
+    radial-gradient(circle at 0% 100%, rgba(255, 196, 0, 0.14), transparent 46%),
+    linear-gradient(135deg, #0b0b0c 0%, #1a1b1f 45%, #121317 100%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+}
+
+.home-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 18px 18px;
+  pointer-events: none;
+}
+
+.home-eyebrow {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 0 0 0.7rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  letter-spacing: 0.02em;
+  font-size: 0.78rem;
+  line-height: 1.2;
+}
+
+.home-hero h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 0.55rem;
+  font-size: clamp(1.65rem, 4.5vw, 2.35rem);
+  line-height: 1.14;
+}
+
+.home-lead {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  max-width: 60ch;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.98rem;
+}
+
+.home-cta {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1rem 0 0.9rem;
+}
+
+.home-cta .btn {
+  margin: 0;
+}
+
+.btn--light-outline {
+  background: transparent;
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.btn--light-outline:hover {
+  color: #fff !important;
+  border-color: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.home-chip-list {
+  position: relative;
+  z-index: 1;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+}
+
+.home-chip-list li {
+  padding: 0.24rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.78rem;
+}
+
+.home-card-grid {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 0 1rem;
+}
+
+.home-card {
+  display: block;
+  padding: 1rem 1rem 0.95rem;
+  border-radius: 14px;
+  border: 1px solid var(--border-color, #d7d7d7);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(249, 249, 249, 0.98) 100%);
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.home-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.09);
+  border-color: #8c8c8c;
+  text-decoration: none;
+}
+
+.home-card__label {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.home-card h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.home-card p {
+  margin: 0;
+  color: #3f3f46;
+  font-size: 0.9rem;
+}
+
+.home-note {
+  padding: 0.8rem 0.95rem;
+  border-left: 4px solid #111;
+  border-radius: 8px;
+  background: #f3f4f6;
+  color: #222;
+  font-size: 0.92rem;
+}
+
+.layout--home .archive__subtitle {
+  margin-top: 1.6rem;
+  padding-top: 0.45rem;
+  border-top: 2px solid #111;
+}
+
+.layout--home .archive__item {
+  padding: 0.9rem 1rem;
+  margin-bottom: 0.85rem;
+  border-radius: 12px;
+  border: 1px solid #d7d7d7;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.03);
+}
+
+.layout--home .archive__item:hover {
+  border-color: #a1a1aa;
+}
+
+@media (max-width: 768px) {
+  .home-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero {
+    padding: 1rem 0.95rem 1.05rem;
+    border-radius: 14px;
+  }
+
+  .home-lead {
+    font-size: 0.93rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-card {
+    transition: none;
+  }
+}
