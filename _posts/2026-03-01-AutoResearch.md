@@ -31,13 +31,15 @@ author_profile: false
 - University of Massachusetts Amherst의 Itai Sher 교수께서는 지속적으로 'AI가 수행하는 연구'에 대해서는 회의적인 시각을 견지하는 모습을 보입니다([Sher1](https://x.com/itaisher/status/2028628055300710772?s=20), [Sher2](https://x.com/itaisher/status/2022622746929447421?s=20), [Sher3](https://x.com/itaisher/status/2022128868480733554?s=20))
 
 ### AI는 이미 어지간한 교수보다 연구를 잘한다? (26/03/03 추가)
-University of Notre Dame의 Keough School of Global Affairs 교수 Alexander Kustov께서도 [AI can already do social science research better than most professors with PhDs.](https://x.com/akoustov/status/2028623202306428986?s=20) 라는 도발적인 트위터 게시글을 올리셨습니다. [블로그](https://alexanderkustov.substack.com/p/academics-need-to-wake-up-on-ai)에서 "인공지능에 대한 반대의 상당 부분은 원칙이라는 이름으로 위장 지위 보호에 불과하다(Much of the opposition to AI is status protection dressed up as principle)," 
+University of Notre Dame의 Keough School of Global Affairs 교수 Alexander Kustov께서도 "[AI can already do social science research better than most professors with PhDs](https://x.com/akoustov/status/2028623202306428986?s=20)" 라는 도발적인 트위터 게시글을 올리셨습니다. [블로그](https://alexanderkustov.substack.com/p/academics-need-to-wake-up-on-ai)에서 "인공지능에 대한 반대의 상당 부분은 원칙이라는 이름으로 위장 지위 보호에 불과하다(Much of the opposition to AI is status protection dressed up as principle)" 라고 언급하며, 특히 블루스카이에 있는 학자들이 현상을 부정하고 있다고 꼬집습니다. 
+
 
 
 ### 제 생각
 Westwood가 말을 세게 하긴 했지만, Rex 박사님 말처럼 적절한 데이터가 있고(그리고 사용자가 그걸 필터링할 역량이 있다면) 저서/논문 PDF를 기계가 읽을 수 있는 형태로 정리해둔다면 선행연구 파트는 상당 부분 자동화가 가능하다고 생각합니다. 논문을 대신할 수 있는 다른 방안을 고려할 필요가 있다는 데에 동의하는 편이라고 정리할 수 있을 것 같네요. 
 
 결국 Kyle Saunders 교수님의 말씀처럼, AI가 교육을 망치는 게 아니라 대학이 얼마나 취약한 사고의 대리 지표에 기대 왔는지를 직면하게 만드는 측면이 있습니다([Saunders](https://kylesaunders.substack.com/p/why-higher-educations-ai-backlash?r=i13e)).
+
 
 ### 후속 논의와 한국 학계
 Sean 교수는 이후에도(특히 블루스카이 쪽 반응을 의식했는지) 후속 트윗을 올렸습니다([후속 1](https://x.com/seanjwestwood/status/2026076268735742443?s=20), [후속 2](https://x.com/seanjwestwood/status/2026852781676528015?s=20)).
