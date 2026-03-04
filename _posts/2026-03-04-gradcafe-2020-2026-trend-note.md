@@ -1,6 +1,7 @@
 ﻿---
 title: "GradCafe 기반 2020-2026 정치학 PhD 어드미션 트렌드"
 slug: "gradcafe-2020-2026-trend-note"
+date: 2026-03-04
 tags:
   - Admission
   - Academia
