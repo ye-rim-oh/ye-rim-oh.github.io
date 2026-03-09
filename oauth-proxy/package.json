@@ -1,0 +1,14 @@
+{
+  "name": "ye-rim-oh-decap-oauth-proxy",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cloudflare Worker OAuth proxy for Decap CMS on ye-rim-oh.github.io",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.6.0"
+  }
+}

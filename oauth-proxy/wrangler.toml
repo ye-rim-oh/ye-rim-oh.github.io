@@ -1,0 +1,9 @@
+name = "ye-rim-oh-decap-oauth"
+main = "src/index.js"
+compatibility_date = "2026-03-09"
+
+[vars]
+SITE_URL = "https://ye-rim-oh.github.io"
+GITHUB_REPO = "ye-rim-oh/ye-rim-oh.github.io"
+GITHUB_BRANCH = "main"
+OAUTH_SCOPES = "public_repo"
