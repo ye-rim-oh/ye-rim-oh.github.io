@@ -4,12 +4,6 @@ permalink: /experimental-articles/
 author_profile: true
 ---
 
-<aside class="work-note">
-  <strong>Disclosure</strong>
-  <p>Most pieces here began as term papers I wrote during the semester or as early research ideas developed in class.</p>
-  <p>I am now revising and extending some of them into experimental articles, with AI assistance limited to coding, drafting support, and implementation unless noted otherwise.</p>
-</aside>
-
 This page collects experimental articles and exploratory papers that grew out of semester term papers and early research notes.
 
 Some entries may remain short while a project is still being tested or expanded. When a piece develops into a fuller research draft, I will update the write-up here.
