@@ -4,9 +4,7 @@ permalink: /experimental-articles/
 author_profile: true
 ---
 
-This page collects term papers I wrote during the semester and am now revising and developing further.
-
-This page will be updated as revised files are added over time.
+This page collects term papers I wrote during the semester and am now revising and developing further. This page will be updated as revised files are added over time.
 
 {% assign papers = site.working_papers | sort: "date" | reverse %}
 <section class="working-paper-list">
