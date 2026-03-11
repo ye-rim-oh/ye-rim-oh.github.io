@@ -6,7 +6,7 @@ status: Draft
 author_profile: false
 ---
 <iframe
-src="https://drive.google.com/file/d/1O7EPMFxoGL1R9mOMDMlO9UCwYDTZ7IYr/view?usp=sharing/preview"
+src="https://drive.google.com/file/d/1O7EPMFxoGL1R9mOMDMlO9UCwYDTZ7IYr/preview"
   width="100%"
   height="720"
   style="border: 1px solid #ddd; border-radius: 12px; background: #fff;">
