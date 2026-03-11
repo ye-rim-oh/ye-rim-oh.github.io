@@ -12,7 +12,7 @@ src="https://drive.google.com/file/d/1O7EPMFxoGL1R9mOMDMlO9UCwYDTZ7IYr/preview"
   style="border: 1px solid #ddd; border-radius: 12px; background: #fff;">
 </iframe>
 
-I originally wrote this paper for a Research Methods for Political Science and International Relations 2 course I audited. I’m well aware that the small sample size ($N$) limits the statistical significance, but I really wanted to explore this topic. 
+I originally wrote this paper for a Research Methods for Political Science and International Relations 2 course I audited. I’m well aware that the small sample size limits the statistical significance, but I really wanted to explore this topic. 
 
 My personal curiosity stemmed from the growing number of multi-cultural families and second-generation marriage migrants in Korea. Given that discrimination against them is an ongoing issue, I wondered if they might eventually trigger new political cleavages, similar to what we see in other countries.
 
