@@ -5,6 +5,13 @@ date: 2026-03-11
 status: Draft
 author_profile: false
 ---
+<iframe
+src="https://drive.google.com/file/d/1O7EPMFxoGL1R9mOMDMlO9UCwYDTZ7IYr/view?usp=sharing/preview"
+  width="100%"
+  height="720"
+  style="border: 1px solid #ddd; border-radius: 12px; background: #fff;">
+</iframe>
+
 I originally wrote this paper for a Research Methods for Political Science and International Relations 2 course I audited. I’m well aware that the small sample size ($N$) limits the statistical significance, but I really wanted to explore this topic. 
 
 My personal curiosity stemmed from the growing number of multi-cultural families and second-generation marriage migrants in Korea. Given that discrimination against them is an ongoing issue, I wondered if they might eventually trigger new political cleavages, similar to what we see in other countries.
@@ -15,6 +22,6 @@ Fortunately, the KGSS (Korean General Social Survey), which is the most extensiv
 
 I initially tested for differences across political, social, and economic metrics, but since there were no significant gaps in the first two, I decided to narrow my focus specifically to the economic aspect where some variation was visible. 
 
-Unsurprisingly, the final results didn't show any major discrepancies either. At best, the study simply suggests a slight possibility that the population with a migration background might lean more toward supporting social welfare. 
+Unsurprisingly, the results didn't show anything groundbreaking. It basically just hinted that people with immigrant backgrounds might prefer more welfare, but that's about it. I actually submitted a super rough draft of this to a contest earlier, and yeah... I got rejected immediately.
 
-To be honest, migration studies isn't my main field or even my primary research interest, so even digging through the relevant literature was quite a challenge. Still, I’ve always been interested in identity politics, which is what led me to pursue this topic in the first place. I actually submitted an alpha version of this draft to a research competition a while back, but of course, it was rejected immediately. 
+To be honest, immigration isn't even my main research interest, so digging through all those papers was challenging. But I’ve always been curious about identity politics, which is why I ended up diving into this. Anyway, if you have any thoughts or advice, feel free to let me know!
