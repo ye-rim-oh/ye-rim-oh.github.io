@@ -11,7 +11,7 @@ permalink: /
   style="display: block; width: 100%; max-width: 980px; border: 1px solid #ddd; border-radius: 8px;">
 
 <p style="margin-top: 0.9rem;">
-  I am an MA candidate at Seoul National University with a research interest in international relations in Asia.
+  I am an MA candidate at Seoul National University with research interests in international relations in Asia and the political implications of AI in international affairs.
 </p>
 
 <p>
