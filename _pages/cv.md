@@ -9,7 +9,7 @@ classes: wide
 <p>
   <a
     class="btn btn--primary"
-    href="https://drive.google.com/file/d/1VB0Ng4lFGbS4TnYEwXIsSzgYpX36fAQ6/view"
+    href="https://drive.google.com/file/d/1fOVRZMM5qOBp5U31EKpsTC-_tXcLkhkH/view"
     target="_blank"
     rel="noopener">
     Open CV in New Tab
@@ -17,7 +17,7 @@ classes: wide
 </p>
 
 <iframe
-  src="https://drive.google.com/file/d/1VB0Ng4lFGbS4TnYEwXIsSzgYpX36fAQ6/preview"
+  src="https://drive.google.com/file/d/1fOVRZMM5qOBp5U31EKpsTC-_tXcLkhkH/preview"
   title="CV Preview"
   width="100%"
   height="900"
