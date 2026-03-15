@@ -57,7 +57,8 @@ The generational divide is sharpest on the least overtly political terrain. Trad
 
 Equality reads as procedural throughout: equal rules score above 4.0, equal outcomes below 2.5. Justice reads as retributive, consistently and broadly. The "too sensitive" item is a near-consensus number that conceals opposite frustrations depending on who is answering.
 
-Social alienation among young men is the one signal that sits apart from the rest. The absolute scores remain low — but generational grievance, discourse norm frustration, and mild nihilistic ideation cluster in the same cohort. That combination doesn't explain anything yet. It's worth watching.
+While Social alienation among young men is the one signal that sits apart from the rest, the absolute scores remain low — but generational grievance, discourse norm frustration, and mild nihilistic ideation cluster in the same cohort. That combination doesn't explain anything yet. It's worth watching.
+
 
 
 - Detailed Analysis by Claude Code is available in [my github repo](https://github.com/ye-rim-oh/mbc-survey-dashboard).
