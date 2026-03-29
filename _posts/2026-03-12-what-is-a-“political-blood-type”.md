@@ -51,23 +51,14 @@ This time, I asked Claude Code to use the data directly, build a dashboard itsel
     </iframe>
   </div>
 
+Koreans in this survey broadly endorse fairness, care, intergenerational duty, and punishment for wrongdoing. Those commitments are real, but they do not settle the political conflicts that matter most. The sharpest disagreements concern family obligation, gender inequality, and the meaning of legitimate order.
 
-The data does not map cleanly onto left-right. Near-universal procedural commitments — fairness, legal equality, intergenerational responsibility — coexist with deep disagreement over what those commitments actually require.
+The five-index regression sharpens that point. Traditional family norms show the strongest age gradient. Gender inequality skepticism shows the strongest young male-female split. Procedural fairness remains broadly shared. Authoritarian order is high across much of the age-gender map rather than isolated at one pole. Alienation stays low, but it is still concentrated among younger men. Taken together, these results do not fit a clean left-right story. Instead, they point to a common procedural vocabulary attached to rival social interpretations of what fairness demands.
 
-The generational divide is sharpest on the least overtly political terrain. Traditional family expectations around motherhood and marriage separate the 20s from the 70s by more than a full scale point, while abstract equality scores barely move across generations. The gender divide runs along an empirical disagreement: not whether women should be equal, but whether the wage gap reflects legitimate factors. On that question, 20s men and 20s women are more than a point apart.
-
-Equality reads as procedural throughout — equal rules above 4.0, equal outcomes below 2.5. Justice reads as retributive, broadly and consistently. The "too sensitive" item produces near-identical scores across groups but encodes opposite frustrations depending on who is answering.
-
-The social alienation signals cluster among young men and sit somewhat apart from the other patterns in the data. They are worth holding alongside a more structurally anomalous finding.
-
-Almost every pattern in this dataset follows age: older cohorts score higher on traditional family norms, deference to social order, and resistance to change. 20s males break that gradient, but only on gender. On personal autonomy they match or exceed 20s women (marriage as personal choice: 3.90). On traditional family obligation their scores are well below older generations. But on the wage gap (3.31), women prioritizing family (2.67), and anti-discrimination discomfort (2.95), they land closer to 50s and 60s males than to any peer group across the gender line. The conservatism is gender-specific — it cuts against both the youth-as-progressive assumption and the simple age-conservatism gradient. The nihilism scores remain low and are not, on their own, what distinguishes this cohort; the gender-equality gap is.
-
-Han (2022) argues that elite polarization in South Korea has shifted from cyclical adversarialism toward something more entrenched, which would make it harder for political institutions to absorb cross-cutting grievances over time. If polarization continues to harden along gender and generational lines, the procedural consensus in this data may eventually fracture over the definition of fairness rather than over outcomes. The unresolved empirical disputes — over the wage gap, who bears family costs, what speech norms protect — are where that fracture would form.
-
-The alienation scores cluster with discourse frustration and economic grievance in the same cohort. That combination does not resolve into a causal story by itself, but it does mark where the sharpest and most structurally specific polarization in this dataset sits.
+If that reading is right, Korean polarization may deepen because citizens attach incompatible meanings to a shared moral language, not because that language is absent. That is a harder political problem. Appeals to fairness alone will not resolve it, because fairness is already the shared term. The conflict is over whose experience, whose burden, and whose injury counts as unfair.
 
 
-- Detailed Analysis by Claude Code is available in [my github repo](https://github.com/ye-rim-oh/mbc-survey-dashboard).
+- Detailed Analysis including unweighted cell-level OLS regression is available in [my github repo](https://github.com/ye-rim-oh/mbc-survey-dashboard).
 
 ### For reference
 
@@ -84,6 +75,7 @@ The alienation scores cluster with discourse frustration and economic grievance 
 More precise than the ideology you think you hold, and more nuanced than a rigid progressive-conservative split, 🩸Political Blood Type offers a more detailed analysis of political orientation. Shall we find out how much 💓 Empathy Hemoglobin, 🌪️ Reset White Cells, 🧭 Tradition Hormone, and 🏛️ Hierarchy Receptor you have?
 
 📎 Political Blood Type was designed on the basis of a social survey of 3,027 respondents.
+
 📎 Advisory panel: Professor John Seungmin Kuk (Michigan State University), Professor SunKyoung Park (Korea University), Professor Shang E. Ha (Sogang University)
 
 ---
