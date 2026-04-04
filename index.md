@@ -11,8 +11,7 @@ permalink: /
   style="display: block; width: 100%; max-width: 980px; border: 1px solid #ddd; border-radius: 8px;">
 
 <p style="margin-top: 0.9rem;">
-  I am an MA candidate at Seoul National University with research interests in Asian international relations and the political implications of AI, especially in international relations and political behavior.
-</p>
+I am an MA candidate at Seoul National University specializing in Asian International Relations and the political implications of AI. My research began with a constructivist lens, focusing on how historical identities and elites' perceptions shape contemporary foreign policy. Recently, I have shifted my focus toward micro-level political behavior, specifically exploring its intersection with AI and identity, and how this synergy reconfigures individual political actions.
 
 <p>
   Before beginning my master's program, I studied Thai and Japanese at Hankuk University of Foreign Studies, worked at Seoul National University's Asia Center, and served as a Junior Scholar at the Wilson Center.
