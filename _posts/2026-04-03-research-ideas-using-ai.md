@@ -32,15 +32,25 @@ Leader personality, operationalized as a multidimensional psychological score, a
 
 The design integrates four layers: (1) classical at-a-distance scoring as the baseline, (2) LLM-assisted automation for scalable corpus processing, (3) LLM persona simulation for prospective behavioral prediction, and (4) statistical outcome modeling.
 
-**Layer 1: Corpus Construction and Classical Scoring**Speeches, press conference transcripts, parliamentary records, and diplomatic communiqués (governmental archives, FBIS/OSC, LexisNexis, UN Digital Library) are coded using Profiler Plus for LTA traits and the VICS scheme for OCA scores. This produces the validated leader-level numeric profile against which LLM outputs are benchmarked.
+**Layer 1: Corpus Construction and Classical Scoring**
 
-**Layer 2: LLM-Assisted Trait Scoring**Each leader's corpus is chunked into utterance-level units and scored by an LLM against LTA trait definitions (zero-shot or few-shot). Chunk-level scores are aggregated to the leader-period level. Validation targets Pearson *r* > .85 against a hand-coded gold-standard subset (≥200 utterances per leader; cf. Herrmann et al. 2025). Each utterance is scored across N = 5–10 independent runs and averaged to reduce stochastic variance; high-variance cases are flagged for human review. LLM annotation also enables multilingual extension to leaders whose primary discourse is in Russian, Mandarin, Arabic, or Korean — populations historically excluded from LTA/OCA studies.
+Speeches, press conference transcripts, parliamentary records, and diplomatic communiqués (governmental archives, FBIS/OSC, LexisNexis, UN Digital Library) are coded using Profiler Plus for LTA traits and the VICS scheme for OCA scores. This produces the validated leader-level numeric profile against which LLM outputs are benchmarked.
 
-**Layer 3: LLM Persona Simulation**For each leader, a structured persona prompt synthesizes LTA trait scores, OCA belief indices, biographical context, and regime-structural constraints. Each persona is run through a standardized battery of crisis scenarios varying external threat level, domestic stability, and diplomatic off-ramps. Predictions are backtested against known historical outcomes. This layer is explicitly exploratory: individual-level persona variables explain less than 10% of outcome variance in existing benchmarks (Manning 2025), and training data priors may distort simulation of leaders underrepresented in English-language corpora.
+**Layer 2: LLM-Assisted Trait Scoring**
 
-**Layer 4: Statistical Estimation**Leader personality scores serve as regressors in panel models of MID initiation (MID v5.0), ICEWS conflict event counts, or territorial revisionism, controlling for dyadic power ratio, alliance portfolio, GDP growth, and leader tenure. Heterogeneous effects tests interact personality scores with regime type (Geddes, Wright & Frantz). A subset of 3–5 cases receives qualitative process tracing: structural pressure → personality-filtered threat perception → domestic justification → behavioral outcome.
+Each leader's corpus is chunked into utterance-level units and scored by an LLM against LTA trait definitions (zero-shot or few-shot). Chunk-level scores are aggregated to the leader-period level. Validation targets Pearson *r* > .85 against a hand-coded gold-standard subset (≥200 utterances per leader; cf. Herrmann et al. 2025). Each utterance is scored across N = 5–10 independent runs and averaged to reduce stochastic variance; high-variance cases are flagged for human review. LLM annotation also enables multilingual extension to leaders whose primary discourse is in Russian, Mandarin, Arabic, or Korean — populations historically excluded from LTA/OCA studies.
 
-**Case Selection**Universe: personalist authoritarian leaders in office ≥ 3 years, 1946–present. Historical cases (deep process tracing): Stalin, Mao Zedong, Saddam Hussein, Kim Jong-il, Gaddafi, Milošević. Contemporary cases: Putin, Xi Jinping, Kim Jong-un.
+**Layer 3: LLM Persona Simulation**
+
+For each leader, a structured persona prompt synthesizes LTA trait scores, OCA belief indices, biographical context, and regime-structural constraints. Each persona is run through a standardized battery of crisis scenarios varying external threat level, domestic stability, and diplomatic off-ramps. Predictions are backtested against known historical outcomes. This layer is explicitly exploratory: individual-level persona variables explain less than 10% of outcome variance in existing benchmarks (Manning 2025), and training data priors may distort simulation of leaders underrepresented in English-language corpora.
+
+**Layer 4: Statistical Estimation**
+
+Leader personality scores serve as regressors in panel models of MID initiation (MID v5.0), ICEWS conflict event counts, or territorial revisionism, controlling for dyadic power ratio, alliance portfolio, GDP growth, and leader tenure. Heterogeneous effects tests interact personality scores with regime type (Geddes, Wright & Frantz). A subset of 3–5 cases receives qualitative process tracing: structural pressure → personality-filtered threat perception → domestic justification → behavioral outcome.
+
+**Case Selection**
+
+Universe: personalist authoritarian leaders in office ≥ 3 years, 1946–present. Historical cases (deep process tracing): Stalin, Mao Zedong, Saddam Hussein, Kim Jong-il, Gaddafi, Milošević. Contemporary cases: Putin, Xi Jinping, Kim Jong-un.
 
 ### Expected Contributions
 
@@ -93,9 +103,13 @@ These two mechanisms — moderation through balanced deliberation versus polariz
 
 ### Experimental Design
 
-**Participants**N ≈ 600–900 adult participants recruited via panel vendor (e.g., Prolific, KnPanel for Korean context), stratified by self-reported ideology and prior AI usage. Pre-registered on OSF prior to data collection.
+**Participants**
 
-**Random Assignment**Three conditions:
+N ≈ 600–900 adult participants recruited via panel vendor (e.g., Prolific, KnPanel for Korean context), stratified by self-reported ideology and prior AI usage. Pre-registered on OSF prior to data collection.
+
+**Random Assignment**
+
+Three conditions:
 
 * *Control*: no access to the designated AI tool; participants continue their normal media diet.
 * *Treatment A*: free access to a designated LLM under ordinary settings, fully self-directed.
@@ -110,9 +124,13 @@ The contrast between Treatment A and Treatment B isolates the effect of prompt-l
 * *T2* (6 months): full repeat battery + open-ended questions on perceived AI influence.
 * Usage logging: anonymized query topic categories (not content) via browser extension or dedicated app.
 
-**Primary Outcomes**Change in affective polarization score (T2 − T0) by treatment condition; change in issue position index.
+**Primary Outcomes**
 
-**Secondary Outcomes**Partisan identity strength, epistemic confidence, and cross-cutting information exposure.
+Change in affective polarization score (T2 − T0) by treatment condition; change in issue position index.
+
+**Secondary Outcomes**
+
+Partisan identity strength, epistemic confidence, and cross-cutting information exposure.
 
 ### Anticipated Mechanisms and Heterogeneous Effects
 
@@ -138,16 +156,24 @@ The sycophancy-driven echo chamber mechanism predicts Treatment A > Control in p
 
 ### References
 
+**LLM attitude effects**
+
 * Voelkel, Jan G., et al. 2023. "Interventions Reducing Affective Polarization Do Not Necessarily Improve Anti-Democratic Attitudes." *Nature Human Behaviour* 7: 55–64.
-* Bai, Hui, et al. 2025. "Testing Theories of Political Persuasion Using AI." *PNAS* 122. https://www.pnas.org/doi/10.1073/pnas.2412815122.
 * Voelkel, Jan G., et al. 2023. "Leveraging AI for Democratic Discourse." *PNAS* 120(41). https://www.pnas.org/doi/10.1073/pnas.2311627120.
+* Bai, Hui, et al. 2025. "Testing Theories of Political Persuasion Using AI." *PNAS* 122. https://www.pnas.org/doi/10.1073/pnas.2412815122.
 * Rathje, Steve, et al. 2026. "Sycophantic AI Increases Attitude Extremity and Overconfidence." *PsyArXiv* preprint.
 * Jacob, C., P. Kerrigan, and Marco Bastos. 2025. "The Chat-Chamber Effect: Trusting the AI Hallucination." *Social Media + Society*. https://doi.org/10.1177/20539517241306345.
 * Calacci, Dan, et al. 2026. "AI-Powered Chatbots Can Become Too Agreeable over Time." Penn State ICDS news release. https://www.psu.edu/news/information-sciences-and-technology/story/ai-powered-chatbots-can-become-too-agreeable-over-time.
-* Bail, Christopher A., et al. 2018. "Exposure to Opposing Views on Social Media Can Increase Political Polarization." *PNAS* 115(37): 9216–9221.
+
+**LLM political leanings**
+
 * Steimer, Sarah. 2025. "Finding Political Leanings in Large Language Models." University of Chicago Social Sciences Division. https://socialsciences.uchicago.edu/news/finding-political-leanings-large-language-models.
 * Chowdhury, Rumman, and Kayla Schwoerer Robert. 2025. "Is the Politicization of Generative AI Inevitable?" *Brookings Institution*. https://www.brookings.edu/articles/is-the-politicization-of-generative-ai-inevitable/.
 * Motoki, Fabio, Valdemar Pinho Neto, and Victor Rodrigues. 2024. "More Human than Human: Measuring ChatGPT Political Bias." *arXiv*. https://arxiv.org/abs/2412.16746.
+
+**Social media baseline**
+
+* Bail, Christopher A., et al. 2018. "Exposure to Opposing Views on Social Media Can Increase Political Polarization." *PNAS* 115(37): 9216–9221.
 
 * * *
 
@@ -246,25 +272,41 @@ Conservative political actors engage in electorally seasonal network restructuri
 
 ### Data
 
-**Source and collection**Twitter/X Academic Research API. Keywords and hashtag seeds constructed from major Korean political terms, candidate names, party hashtags, and gender-salient issue terms (여성, 페미니즘, 이대녀, 이대남, 여가부, 군가산점, etc.).
+**Source and collection**
+
+Twitter/X Academic Research API. Keywords and hashtag seeds constructed from major Korean political terms, candidate names, party hashtags, and gender-salient issue terms (여성, 페미니즘, 이대녀, 이대남, 여가부, 군가산점, etc.).
 
 **Target elections** (four observation windows): 2022 presidential election (March), 2022 local elections (June), 2024 parliamentary election (April), 2025 presidential election (June).
 
-**User-level gender inference**Gender is not directly observable on Twitter. Three complementary approaches are used, each treated as probabilistic: (1) Korean name-gender lookup tables applied to screen-names; (2) LLM-based zero-shot classification of profile bios for gender-indicative language; (3) community-level gender composition scores aggregated from high-confidence individual inferences. All individual-level inferences are aggregated to the community level before drawing substantive conclusions.
+**User-level gender inference**
+
+Gender is not directly observable on Twitter. Three complementary approaches are used, each treated as probabilistic: (1) Korean name-gender lookup tables applied to screen-names; (2) LLM-based zero-shot classification of profile bios for gender-indicative language; (3) community-level gender composition scores aggregated from high-confidence individual inferences. All individual-level inferences are aggregated to the community level before drawing substantive conclusions.
 
 ### Methodology
 
-**Step 1: Retweet Network Construction**For each election window, construct a directed weighted retweet graph G = (V, E, w), filter to the giant connected component, and prune edges below a minimum weight threshold (w ≥ 2) to reduce noise.
+**Step 1: Retweet Network Construction**
 
-**Step 2: Community Detection**Apply the Louvain algorithm (Blondel et al. 2008) to the undirected projection of the retweet graph, targeting 3–6 major communities (progressive, conservative, anti-feminist, feminist/progressive women, centrist/news-media). Label communities via seed accounts (known politicians, party handles) and hashtag co-occurrence validation.
+For each election window, construct a directed weighted retweet graph G = (V, E, w), filter to the giant connected component, and prune edges below a minimum weight threshold (w ≥ 2) to reduce noise.
 
-**Step 3: Gender-Community Distribution Analysis**Compute gender composition scores (proportion female) and gender homophily indices per community. Compare across communities and across election vs. non-election windows to detect structural shifts.
+**Step 2: Community Detection**
 
-**Step 4: Bridge Account Detection**Identify accounts connecting the conservative cluster to higher-female-composition communities using betweenness centrality in the inter-community subgraph and community membership change across time windows (Ramaciotti Morales & Cointet 2024). Profile bridge accounts by content, account age, and follower-to-following ratio.
+Apply the Louvain algorithm (Blondel et al. 2008) to the undirected projection of the retweet graph, targeting 3–6 major communities (progressive, conservative, anti-feminist, feminist/progressive women, centrist/news-media). Label communities via seed accounts (known politicians, party handles) and hashtag co-occurrence validation.
 
-**Step 5: Electoral Seasonality Test**Compute the inter-community retweet ratio (ICR) weekly to test whether cross-community bridging is electorally seasonal. Apply Granger causality to test whether bridge account emergence precedes increased retweet volume from female-leaning communities toward conservative content. A difference-in-differences design compares conservative → female-community bridge density across election windows (treatment) versus non-election periods (control) using the 2022–2025 panel.
+**Step 3: Gender-Community Distribution Analysis**
 
-**Step 6: LLM-Assisted Content Analysis of Bridging Messages**For the top-k (k ≈ 500–1,000) tweets from bridge accounts during election windows, apply LLM-based stance and frame classification: issue frame, target audience signal, and sentiment toward feminism. This tests whether bridging is accompanied by a softening of anti-feminist rhetoric (strategic reframing) or maintains hostile framing (co-optation of women's issue vocabulary without attitudinal moderation).
+Compute gender composition scores (proportion female) and gender homophily indices per community. Compare across communities and across election vs. non-election windows to detect structural shifts.
+
+**Step 4: Bridge Account Detection**
+
+Identify accounts connecting the conservative cluster to higher-female-composition communities using betweenness centrality in the inter-community subgraph and community membership change across time windows (Ramaciotti Morales & Cointet 2024). Profile bridge accounts by content, account age, and follower-to-following ratio.
+
+**Step 5: Electoral Seasonality Test**
+
+Compute the inter-community retweet ratio (ICR) weekly to test whether cross-community bridging is electorally seasonal. Apply Granger causality to test whether bridge account emergence precedes increased retweet volume from female-leaning communities toward conservative content. A difference-in-differences design compares conservative → female-community bridge density across election windows (treatment) versus non-election periods (control) using the 2022–2025 panel.
+
+**Step 6: LLM-Assisted Content Analysis of Bridging Messages**
+
+For the top-k (k ≈ 500–1,000) tweets from bridge accounts during election windows, apply LLM-based stance and frame classification: issue frame, target audience signal, and sentiment toward feminism. This tests whether bridging is accompanied by a softening of anti-feminist rhetoric (strategic reframing) or maintains hostile framing (co-optation of women's issue vocabulary without attitudinal moderation).
 
 ### Key Hypotheses
 
@@ -296,29 +338,22 @@ The central practical constraint is API cost. The Free tier (1,500 tweets/month)
 
 **Korean political network / gender politics**
 
-Chung, Haejin. 2024. "Gender Wars and Populist Politics in South Korea." *Women's Studies International Forum* 104: 102906. https://www.sciencedirect.com/science/article/pii/S0277539524000530.
-
-Kwon, Eunji, and Sooyeon Kim. 2025. "Blaming Feminists, Claiming Pain: Anti-Feminist Discourse and Electoral Mobilization by New Men's Solidarity in South Korea." *Women's Studies International Forum* 110: 102986. https://www.sciencedirect.com/science/article/pii/S0277539525001086.
-
-Lee, Nae-Young, and Hyeshin Kim. 2025. "Anti-Gender Politics, Economic Insecurity, and Right-Wing Populism: The Rise of Modern Sexism among Young Men in South Korea." *Social Politics* 32(3): 584–614. https://academic.oup.com/sp/article/32/3/584/7826751.
-
-Yoo, Jungwon, and Hyunjin Kim. 2024. "Semantic Networks of Election Fraud: Comparing the Twitter Discourses of the U.S. and Korean Presidential Elections." *Social Sciences* 13(2): 94. https://www.mdpi.com/2076-0760/13/2/94.
+* Chung, Haejin. 2024. "Gender Wars and Populist Politics in South Korea." *Women's Studies International Forum* 104: 102906. https://www.sciencedirect.com/science/article/pii/S0277539524000530.
+* Kwon, Eunji, and Sooyeon Kim. 2025. "Blaming Feminists, Claiming Pain: Anti-Feminist Discourse and Electoral Mobilization by New Men's Solidarity in South Korea." *Women's Studies International Forum* 110: 102986. https://www.sciencedirect.com/science/article/pii/S0277539525001086.
+* Lee, Nae-Young, and Hyeshin Kim. 2025. "Anti-Gender Politics, Economic Insecurity, and Right-Wing Populism: The Rise of Modern Sexism among Young Men in South Korea." *Social Politics* 32(3): 584–614. https://academic.oup.com/sp/article/32/3/584/7826751.
+* Yoo, Jungwon, and Hyunjin Kim. 2024. "Semantic Networks of Election Fraud: Comparing the Twitter Discourses of the U.S. and Korean Presidential Elections." *Social Sciences* 13(2): 94. https://www.mdpi.com/2076-0760/13/2/94.
 
 **Twitter political network methodology**
 
-Flamino, James, et al. 2023. "Political Polarization of News Media and Influencers on Twitter in the 2016 and 2020 US Presidential Elections." *Nature Human Behaviour* 7(6): 904–916. https://doi.org/10.1038/s41562-023-01550-8.
-
-Guerrero-Solé, Frederic. 2017. "Community Detection in Political Discussions on Twitter." *Social Science Computer Review* 35(2): 244–261. https://doi.org/10.1177/0894439315617254.
-
-Dogdu, Erdogan, Ramin Choupani, and Selin Sürücü. 2024. "Detecting Political Polarization Using Social Media Data." In *Advances in Intelligent Systems and Computing*, 3–14. Cham: Springer. https://link.springer.com/chapter/10.1007/978-3-031-61816-1_4.
-
-Ramaciotti Morales, Pedro, and Jean-Philippe Cointet. 2024. "Polarization Dynamics: A Study of Individuals Shifting Between Political Communities on Social Media." arXiv:2408.07731. https://arxiv.org/html/2408.07731.
+* Flamino, James, et al. 2023. "Political Polarization of News Media and Influencers on Twitter in the 2016 and 2020 US Presidential Elections." *Nature Human Behaviour* 7(6): 904–916. https://doi.org/10.1038/s41562-023-01550-8.
+* Guerrero-Solé, Frederic. 2017. "Community Detection in Political Discussions on Twitter." *Social Science Computer Review* 35(2): 244–261. https://doi.org/10.1177/0894439315617254.
+* Dogdu, Erdogan, Ramin Choupani, and Selin Sürücü. 2024. "Detecting Political Polarization Using Social Media Data." In *Advances in Intelligent Systems and Computing*, 3–14. Cham: Springer. https://link.springer.com/chapter/10.1007/978-3-031-61816-1_4.
+* Ramaciotti Morales, Pedro, and Jean-Philippe Cointet. 2024. "Polarization Dynamics: A Study of Individuals Shifting Between Political Communities on Social Media." arXiv:2408.07731. https://arxiv.org/html/2408.07731.
 
 **LLM-assisted content classification**
 
-Ye, Jinyi, Luca Luceri, and Emilio Ferrara. 2025. "Auditing Political Exposure Bias: Algorithmic Amplification on Twitter/X During the 2024 U.S. Presidential Election." In *FAccT '25*. https://doi.org/10.1145/3715275.3732159.
-
-Zhu, Yixuan, Sotiris Siatras, and Lucia Siciliani. 2024. "Analyzing Political Stances on Twitter in the Lead-Up to the 2024 U.S. Election." arXiv:2412.02712. https://arxiv.org/html/2412.02712.
+* Ye, Jinyi, Luca Luceri, and Emilio Ferrara. 2025. "Auditing Political Exposure Bias: Algorithmic Amplification on Twitter/X During the 2024 U.S. Presidential Election." In *FAccT '25*. https://doi.org/10.1145/3715275.3732159.
+* Zhu, Yixuan, Sotiris Siatras, and Lucia Siciliani. 2024. "Analyzing Political Stances on Twitter in the Lead-Up to the 2024 U.S. Election." arXiv:2412.02712. https://arxiv.org/html/2412.02712.
 
 * * *
 
@@ -400,38 +435,32 @@ If the human-with-technology condition compresses the J-curve by raising the lit
 
 ### References
 
-Amdahl, Gene. 1967. "Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities." *AFIPS Spring Joint Computer Conference.*
+**Amdahl's Law and human bottleneck**
 
-Atlassian. 2026. "How Amdahl's Law Still Applies to Modern-Day AI Inefficiencies." https://www.atlassian.com/blog/artificial-intelligence/how-amdahls-law-still-applies-to-modern-day-ai-inefficiencies.
+* Amdahl, Gene. 1967. "Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities." *AFIPS Spring Joint Computer Conference.*
+* Atlassian. 2026. "How Amdahl's Law Still Applies to Modern-Day AI Inefficiencies." https://www.atlassian.com/blog/artificial-intelligence/how-amdahls-law-still-applies-to-modern-day-ai-inefficiencies.
+* ElectricSQL. 2026. "Amdahl's Law for AI Agents." https://electric-sql.com/blog/2026/02/19/amdahls-law-for-ai-agents.
 
-Belda-Miquel, Sergio, et al. 2023. "Automation and Aging: The Impact on Older Workers in the Workforce." *Journal of the Economics of Ageing.* https://www.sciencedirect.com/science/article/pii/S2212828X23000361.
+**AI productivity evidence**
 
-Bick, Alexander, et al. 2025. "The Impact of Generative AI on Work Productivity." Federal Reserve Bank of St. Louis. https://www.stlouisfed.org/on-the-economy/2025/feb/impact-generative-ai-work-productivity.
+* Brynjolfsson, Erik, Danielle Li, and Lindsey R. Raymond. 2024. "Generative AI at Work." *NBER Working Paper 31161.* https://www.nber.org/papers/w31161.
+* Brynjolfsson, Erik, Daniel Rock, and Chad Syverson. 2021. "The Productivity J-Curve: How Intangibles Complement General Purpose Technologies." *American Economic Journal: Macroeconomics* 13(1): 333–72.
+* Bick, Alexander, et al. 2025. "The Impact of Generative AI on Work Productivity." Federal Reserve Bank of St. Louis. https://www.stlouisfed.org/on-the-economy/2025/feb/impact-generative-ai-work-productivity.
+* Hoffmann, Manuel, et al. 2024. "Generative AI and the Nature of Work." Harvard Business School Working Paper. https://hbr.org/2025/07/how-ai-is-redefining-managerial-roles.
+* Gruda, Dritjon, et al. 2025. "Seven Myths about AI and Productivity: What the Evidence Really Says." *California Management Review.* https://cmr.berkeley.edu/2025/10/seven-myths-about-ai-and-productivity-what-the-evidence-really-says/.
+* ICLE. 2026. "AI, Productivity, and Labor Markets: A Review of the Empirical Evidence." https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/.
+* NBER. 2026. "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives." *NBER Working Paper 34984.* https://www.nber.org/papers/w34984.
 
-Brynjolfsson, Erik, Danielle Li, and Lindsey R. Raymond. 2024. "Generative AI at Work." *NBER Working Paper 31161.* https://www.nber.org/papers/w31161.
+**AI literacy and organizational adoption**
 
-Brynjolfsson, Erik, Daniel Rock, and Chad Syverson. 2021. "The Productivity J-Curve: How Intangibles Complement General Purpose Technologies." *American Economic Journal: Macroeconomics* 13(1): 333–72.
+* Dai, Xueliang, et al. 2025. "Generative Artificial Intelligence Literacy: Scale Development and Its Effect on Job Performance." *PMC.* https://pmc.ncbi.nlm.nih.gov/articles/PMC12189696/.
+* Ng, Davy T. K., et al. 2021. "AI Literacy Scale." *Computers and Education.*
+* McKinsey. 2025. "Seizing the Agentic AI Advantage." *McKinsey Quarterly.* https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage.
+* McKinsey. 2025. "Superagency in the Workplace." https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work.
+* MIT Sloan Management Review. 2025. "The Emerging Agentic Enterprise." https://sloanreview.mit.edu/projects/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai/.
+* Deloitte. 2025. "Agentic AI Strategy." *Deloitte Insights.* https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html.
+* Fullview. 2025. "200+ AI Statistics and Trends for 2025." https://www.fullview.io/blog/ai-statistics.
 
-Dai, Xueliang, et al. 2025. "Generative Artificial Intelligence Literacy: Scale Development and Its Effect on Job Performance." *PMC.* https://pmc.ncbi.nlm.nih.gov/articles/PMC12189696/.
+**Aging workforce**
 
-Deloitte. 2025. "Agentic AI Strategy." *Deloitte Insights.* https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html.
-
-ElectricSQL. 2026. "Amdahl's Law for AI Agents." https://electric-sql.com/blog/2026/02/19/amdahls-law-for-ai-agents.
-
-Fullview. 2025. "200+ AI Statistics and Trends for 2025." https://www.fullview.io/blog/ai-statistics.
-
-Gruda, Dritjon, et al. 2025. "Seven Myths about AI and Productivity: What the Evidence Really Says." *California Management Review.* https://cmr.berkeley.edu/2025/10/seven-myths-about-ai-and-productivity-what-the-evidence-really-says/.
-
-Hoffmann, Manuel, et al. 2024. "Generative AI and the Nature of Work." Harvard Business School Working Paper. https://hbr.org/2025/07/how-ai-is-redefining-managerial-roles.
-
-ICLE. 2026. "AI, Productivity, and Labor Markets: A Review of the Empirical Evidence." https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/.
-
-McKinsey. 2025. "Seizing the Agentic AI Advantage." *McKinsey Quarterly.* https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage.
-
-McKinsey. 2025. "Superagency in the Workplace." https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work.
-
-MIT Sloan Management Review. 2025. "The Emerging Agentic Enterprise." https://sloanreview.mit.edu/projects/the-emerging-agentic-enterprise-how-leaders-must-navigate-a-new-age-of-ai/.
-
-Ng, Davy T. K., et al. 2021. "AI Literacy Scale." *Computers and Education.*
-
-NBER. 2026. "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives." *NBER Working Paper 34984.* https://www.nber.org/papers/w34984.
+* Belda-Miquel, Sergio, et al. 2023. "Automation and Aging: The Impact on Older Workers in the Workforce." *Journal of the Economics of Ageing.* https://www.sciencedirect.com/science/article/pii/S2212828X23000361.
