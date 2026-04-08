@@ -3,6 +3,10 @@ title: "Chatbot vs. Agent vs. Human: Comparing Productivity and Policy
   Effectiveness Under Human Bottleneck Conditions"
 date: 2026-04-05
 status: In Progress
+tags:
+  - AI
+  - Productivity
+  - ""
 author_profile: false
 ---
 ### Motivation
