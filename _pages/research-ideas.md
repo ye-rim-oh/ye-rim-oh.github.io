@@ -6,7 +6,7 @@ collection: research_ideas
 entries_layout: list
 sort_by: date
 sort_order: reverse
-show_excerpts: true
+show_excerpts: false
 author_profile: true
 ---
 
