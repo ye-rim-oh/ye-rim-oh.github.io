@@ -9,9 +9,6 @@ summary: My personal motivation came from the experience of scrolling through
   Korean.
 author_profile: false
 ---
-# Does Automatic Translation Reshape Political Attitudes? X's Global Rollout as a Natural Experiment in Incidental Cross-Lingual Exposure
-
----
 
 ## Motivation
 
@@ -23,7 +20,6 @@ Compounding this structural change is a body of empirical evidence on X's algori
 
 The research question this project addresses is: **Does X's automatic translation feature increase non-English-speaking users' incidental exposure to U.S. conservative political content, and does this exposure shift attitudes toward Donald Trump and the Republican Party's America First agenda?**
 
----
 
 ## Core Argument
 
@@ -33,7 +29,6 @@ First, the translated political content delivered through X's algorithmic feed w
 
 Second, this algorithmically skewed translated exposure will shift non-English users' attitudes toward U.S. conservative politics, moderated by their prior attitudes toward the United States and their awareness that the content they are reading has been algorithmically selected and machine-translated. Users with neutral or uncertain priors are more susceptible to attitude change than those with strongly held prior beliefs (Petty & Cacioppo 1986); users who are unaware of the translation origin of content (or who do not notice the translation label) will update more than those who consciously apply epistemic discount to machine-translated material (Bryanov et al. 2023).
 
----
 
 ## Theoretical Grounding
 
@@ -45,7 +40,6 @@ Second, this algorithmically skewed translated exposure will shift non-English u
 
 **Foreign news credibility and prior attitude moderation.** Prior research on credibility of foreign news sources finds that the dominant predictor of whether a foreign news item is believed is not its factual accuracy but its concordance with the dominant media narrative in the user's home country (Bryanov et al. 2023). This implies that attitude effects from translated X content will be heterogeneous across countries: in countries where the prevailing domestic media frame is antagonistic toward Trump (which Pew's 2025 24-country survey shows is the majority of surveyed nations), algorithmically amplified pro-Trump translated content may be systematically discounted. The implication is not that attitude effects will be absent, but that they will be strongest among users whose prior attitude is uncertain or slightly positive, and weakest or reversed among users with strong prior negative attitudes.
 
----
 
 ## Methodology
 
@@ -87,7 +81,6 @@ Participants in all conditions view a simulated X feed interface (eight posts). 
 
 **Estimation:** Mixed ANOVA with pre-treatment attitude as a continuous moderator; PROCESS macro for moderated mediation, where perceived algorithmic awareness is tested as a mediator of the label salience effect on attitude change.
 
----
 
 ## Key Hypotheses
 
@@ -108,7 +101,6 @@ Participants in all conditions view a simulated X feed interface (eight posts). 
 
 **Policy contribution.** The findings bear directly on the governance of AI-powered translation on social media platforms. If automated translation functions as an ideological amplifier rather than a neutral conduit — not by design but as a byproduct of engagement-optimization logic applied to content selection — platform operators and regulators face a novel accountability question: to whom is the algorithm accountable when its effects on political opinion cross national borders?
 
----
 
 ## Key Limitations
 
@@ -122,7 +114,6 @@ Participants in all conditions view a simulated X feed interface (eight posts). 
 
 **API access.** The Study 1 audit depends on continued API access at the Pro tier level. X Corp has changed its API access and pricing terms repeatedly since 2022; project planning must include contingency protocols for reduced data access.
 
----
 
 ## References
 
