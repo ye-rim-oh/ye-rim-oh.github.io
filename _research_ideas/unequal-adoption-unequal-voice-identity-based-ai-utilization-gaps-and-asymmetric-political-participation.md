@@ -5,6 +5,10 @@ date: 2026-04-04
 status: In Progress
 summary: This was the research topic I wrote about in my SOP for the Fall 2026
   application cycle. I wonder if it seemed unrealistic.
+tags:
+  - AI
+  - Identity
+  - PoliticalParticipation
 author_profile: false
 ---
 ### Motivation
