@@ -3,14 +3,8 @@ title: Does Automatic Translation Reshape Political Attitudes? X's Global
   Rollout as a Natural Experiment in Incidental Cross-Lingual Exposure
 date: 2026-04-08
 status: In Progress
-summary: My personal motivation came from the experience of scrolling through
-  Twitter, suddenly coming across posts that felt culturally unfamiliar, and
-  then realizing, to my surprise, that they were overseas posts translated into
-  Korean.
+summary: ""
 author_profile: false
----
-# Does Automatic Translation Reshape Political Attitudes? X's Global Rollout as a Natural Experiment in Incidental Cross-Lingual Exposure
-
 ---
 
 ## Motivation
