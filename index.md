@@ -5,6 +5,8 @@ title: "Home"
 permalink: /
 ---
 
+<!-- pages-refresh: 2026-04-08T21:00:00+09:00 -->
+
 <img
   src="{{ '/assets/images/home-photo.jpg' | relative_url }}"
   alt="Sunset city skyline"
