@@ -54,7 +54,10 @@ include:
 collections:
   working_papers:
     output: true
-    permalink: /experimental-articles/:path/
+    permalink: /works-in-progress/:path/
+  research_ideas:
+    output: true
+    permalink: /research-ideas/:path/
 
 exclude:
   - .sass-cache
@@ -83,6 +86,14 @@ defaults:
   - scope:
       path: ""
       type: working_papers
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: research_ideas
     values:
       layout: single
       author_profile: true
