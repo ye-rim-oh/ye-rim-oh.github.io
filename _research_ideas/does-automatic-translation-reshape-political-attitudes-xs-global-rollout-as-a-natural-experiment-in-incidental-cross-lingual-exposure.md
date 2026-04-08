@@ -4,6 +4,10 @@ title: Does Automatic Translation Reshape Political Attitudes? X's Global
 date: 2026-04-08
 status: In Progress
 summary: ""
+tags:
+  - Socialmedia
+  - Twitter
+  - Perception
 author_profile: false
 ---
 
