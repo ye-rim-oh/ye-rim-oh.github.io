@@ -3,7 +3,7 @@ title: Does AI Use Make People More Conservative or More Progressive? A
   Longitudinal Field Experiment
 date: 2026-04-04
 status: In Progress
-summary: ""
+summary: It's just a research idea.
 author_profile: false
 ---
 ### Motivation

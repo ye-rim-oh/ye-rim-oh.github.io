@@ -1,10 +1,12 @@
 ---
 title: "Works in Progress"
-permalink: /works-in-progress/
+permalink: /experimental-articles/
 author_profile: true
+redirect_from:
+  - /working-paper/
 ---
 
-This page collects draft-stage papers that I am actively revising and developing further.
+This page collects papers I wrote during the semester and am now revising and developing further.
 
 {% assign papers = site.working_papers | sort: "date" | reverse %}
 <section class="working-paper-list">
@@ -16,6 +18,11 @@ This page collects draft-stage papers that I am actively revising and developing
           {% if paper.date %}{{ paper.date | date: "%Y-%m-%d" }}{% endif %}
           {% if paper.status %} | {{ paper.status }}{% endif %}
         </div>
+        {% if paper.summary %}
+          <p>{{ paper.summary }}</p>
+        {% elsif paper.excerpt %}
+          <p>{{ paper.excerpt | strip_html | truncate: 220 }}</p>
+        {% endif %}
       </article>
     {% endfor %}
   {% else %}

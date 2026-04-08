@@ -62,7 +62,7 @@ collections:
     folder: _working_papers
     create: true
     slug: "{{slug}}"
-    preview_path: "works-in-progress/{{slug}}"
+    preview_path: "experimental-articles/{{slug}}"
     editor:
       preview: true
     fields:
@@ -88,56 +88,6 @@ collections:
       - label: Summary
         name: summary
         widget: text
-        required: false
-      - label: Tags
-        name: tags
-        widget: list
-        required: false
-      - label: Show Author Profile
-        name: author_profile
-        widget: boolean
-        default: false
-        required: false
-      - label: Body
-        name: body
-        widget: markdown
-  - name: research_ideas
-    label: Research Ideas
-    folder: _research_ideas
-    create: true
-    slug: "{{slug}}"
-    preview_path: "research-ideas/{{slug}}"
-    editor:
-      preview: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-      - label: Date
-        name: date
-        widget: datetime
-        format: YYYY-MM-DD
-        date_format: YYYY-MM-DD
-        time_format: false
-      - label: Last Modified
-        name: last_modified_at
-        widget: datetime
-        required: false
-        format: YYYY-MM-DD
-        date_format: YYYY-MM-DD
-        time_format: false
-      - label: Summary
-        name: summary
-        widget: text
-        required: false
-      - label: Tags
-        name: tags
-        widget: list
-        required: false
-      - label: Show Table of Contents
-        name: toc
-        widget: boolean
-        default: true
         required: false
       - label: Show Author Profile
         name: author_profile
