@@ -6,7 +6,7 @@ status: In Progress
 tags:
   - AI
   - Productivity
-  - ""
+  - Literacy
 author_profile: false
 ---
 ### Motivation
