@@ -3,8 +3,7 @@ title: "Unequal Adoption, Unequal Voice: Identity-Based AI Utilization Gaps and
   Asymmetric Political Participation"
 date: 2026-04-04
 status: In Progress
-summary: This was the research topic I wrote about in my SOP for the Fall 2026
-  application cycle. I wonder if it seemed unrealistic.
+summary: ""
 author_profile: false
 ---
 ### Motivation
