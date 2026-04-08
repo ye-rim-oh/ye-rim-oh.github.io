@@ -3,6 +3,12 @@ title: Electoral Seasonality and Gender-Targeted Mobilization in Korean
   Political Twitter Networks
 date: 2026-04-04
 status: In Progress
+tags:
+  - Gender
+  - SouthKorea
+  - Twitter
+  - SocialMedia
+  - Mobilization
 author_profile: false
 ---
 ### Motivation
