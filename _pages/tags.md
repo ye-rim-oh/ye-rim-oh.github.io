@@ -36,8 +36,6 @@ author_profile: true
 
 {% if has_tags %}
 <div class="tags-page">
-  <p class="tags-page__lede">Browse posts, research ideas, and works in progress by topic.</p>
-
   <div class="tags-page__index" aria-label="Tag index">
   {% for tag in all_tags %}
   {% assign clean_tag = tag | strip %}
@@ -47,7 +45,6 @@ author_profile: true
   {% endfor %}
   </div>
 
-  <div class="tags-page__sections">
   {% for tag in all_tags %}
   {% assign clean_tag = tag | strip %}
   {% if clean_tag != "" %}
@@ -82,7 +79,6 @@ author_profile: true
     </section>
   {% endif %}
   {% endfor %}
-  </div>
 </div>
 {% else %}
 <p>No tags yet.</p>
