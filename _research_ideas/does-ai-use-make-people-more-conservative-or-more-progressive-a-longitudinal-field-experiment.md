@@ -6,8 +6,7 @@ status: In Progress
 summary: ""
 tags:
   - AI
-  - Ideoloogy
-  - ""
+  - Ideology
 author_profile: false
 ---
 ### Motivation

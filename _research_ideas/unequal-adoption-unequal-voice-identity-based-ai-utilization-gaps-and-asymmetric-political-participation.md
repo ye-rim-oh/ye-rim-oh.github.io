@@ -8,7 +8,7 @@ summary: This was the research topic I wrote about in my SOP for the Fall 2026
 tags:
   - AI
   - Identity
-  - PoliticalParticipation
+  - Political Participation
 author_profile: false
 ---
 ### Motivation

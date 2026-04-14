@@ -5,9 +5,9 @@ date: 2026-04-04
 status: In Progress
 tags:
   - Gender
-  - SouthKorea
+  - South Korea
   - Twitter
-  - SocialMedia
+  - Social Media
   - Mobilization
 author_profile: false
 ---

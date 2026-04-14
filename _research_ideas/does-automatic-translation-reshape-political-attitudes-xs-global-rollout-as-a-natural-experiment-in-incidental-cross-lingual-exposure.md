@@ -5,7 +5,7 @@ date: 2026-04-08
 status: In Progress
 summary: ""
 tags:
-  - Socialmedia
+  - Social Media
   - Twitter
   - Perception
 author_profile: false
