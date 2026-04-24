@@ -22,3 +22,14 @@ I am an MA candidate at Seoul National University specializing in Asian Internat
 <p>
   This site collects my notes, data projects, and experimental writing on political science, regional affairs, and research workflows.
 </p>
+
+<section class="home-link-grid" aria-label="Featured site sections">
+  <a class="home-link-card" href="{{ '/research-ideas/' | relative_url }}">
+    <span class="home-link-card__label">Research Ideas</span>
+    <span class="home-link-card__text">Early-stage concept notes and project sketches.</span>
+  </a>
+  <a class="home-link-card" href="{{ '/works-in-progress/' | relative_url }}">
+    <span class="home-link-card__label">Works in Progress</span>
+    <span class="home-link-card__text">Draft-stage papers and active revision projects.</span>
+  </a>
+</section>

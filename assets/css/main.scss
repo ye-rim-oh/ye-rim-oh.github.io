@@ -227,6 +227,43 @@ a:hover,
   font-size: 0.95rem;
 }
 
+.home-link-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem;
+  margin-top: 1.4rem;
+}
+
+.home-link-card {
+  display: block;
+  padding: 1rem 1.05rem;
+  border: 1px solid #d4d4d8;
+  border-radius: 10px;
+  background: #fafafa;
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.home-link-card:hover,
+.home-link-card:focus {
+  border-color: #111;
+  box-shadow: 0 10px 24px rgba(17, 17, 17, 0.08);
+  transform: translateY(-1px);
+}
+
+.home-link-card__label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #111;
+  font-weight: 700;
+}
+
+.home-link-card__text {
+  display: block;
+  color: #586273;
+  font-size: 0.94rem;
+}
+
 .tags-page {
   margin-top: 0.2rem;
 }
@@ -300,5 +337,9 @@ a:hover,
 
   .tags-page__section {
     margin-bottom: 1rem;
+  }
+
+  .home-link-grid {
+    grid-template-columns: 1fr;
   }
 }
