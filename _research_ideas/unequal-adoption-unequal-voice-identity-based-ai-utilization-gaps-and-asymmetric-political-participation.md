@@ -13,9 +13,9 @@ author_profile: false
 ---
 ### Motivation
 
-The existing literature on technology and democracy has mostly examined AI's effects from the top down, while treating users as an undifferentiated mass. Missing from this picture is a supply-side inequality question: if AI lowers the cost of constructing persuasive political narratives and mobilizing supporters, then differential utilization capability across identity groups reshapes the relative capacity of groups to participate in politics. Globally, women are approximately 20% less likely than men to use generative AI tools, with the gap driven primarily by differences in AI-specific knowledge rather than income, education, or age (Otis et al. 2024; Bensoussane et al. 2024).
+The existing literature on technology and democracy has mostly examined AI's effects from the top down, while treating users as an undifferentiated mass. Missing from this picture is a supply-side inequality question: if AI lowers the cost of constructing persuasive political narratives and mobilizing supporters, then differential utilization capability across identity groups reshapes the relative capacity of groups to participate in politics. Globally, women are approximately 20% less likely than men to use generative AI tools, and this gap appears across multiple countries, occupations, and contexts [[Otis et al. 2024](https://www.hbs.edu/faculty/Pages/item.aspx?num=66548); [Harvard Business School AI Institute 2025](https://d3.harvard.edu/the-gender-divide-in-generative-ai-a-global-challenge/)]. Survey evidence from the United States similarly finds that 50% of men, compared with 37% of women, reported using generative AI, with self-assessed knowledge about generative AI emerging as the most important explanatory factor [[Aldasoro et al. 2024](https://www.sciencedirect.com/science/article/abs/pii/S0165176524002982)].
 
-South Korea is a strong critical case, combining high AI adoption rates, the most pronounced gender ideological gap among young voters in any advanced democracy — 59% of men aged 18–29 voted for the conservative candidate in 2022 versus 34% of women in the same cohort (Steger 2025) — and a heavily gendered digital information environment, with men and women consuming politically divergent content in algorithmically siloed online spaces (Korea Times Editorial Board 2024; East Asia Forum 2024).
+South Korea is a strong critical case, combining high AI adoption rates, the most pronounced gender ideological gap among young voters in any advanced democracy, and a heavily gendered digital information environment. In the 2022 presidential election, 59% of men aged 18–29 voted for Yoon Suk-yeol, the conservative candidate, compared to 34% of women in the same age group [[Steger 2025](https://thediplomat.com/2025/05/south-koreas-2025-election-a-test-for-gender-equality/)]. Korean digital spaces also show strong gender segmentation: young men and women often consume different content in algorithmically curated echo chambers, while feminist and anti-feminist messaging increasingly circulates through gender-dominated online communities [[Korea Times Editorial Board 2024](https://www.koreatimes.co.kr/www/opinion/2024/12/197_387003.html); [You 2024](https://eastasiaforum.org/2024/07/09/gender-is-reshaping-south-koreas-electoral-landscape/)].
 
 ### Core Argument
 
@@ -36,7 +36,7 @@ Representative quota sample of Korean adults aged 19–39, stratified by gender 
 
 * *Adoption module*: self-reported AI use frequency, platform diversity, stated purposes of use, perceived utility and risk.
 * *Utilization capability module*: structured prompting task administered within the survey. Respondents use an embedded AI interface for a standardized political scenario; output quality is scored by trained coders blind to respondent identity. This operationalizes utilization capability as a behavioral performance score rather than self-report.
-* *Political behavior and attitudes module*: voting intention, party identification, affective polarization (Korean adaptation of the Iyengar et al. scale), political efficacy, online and offline political activity.
+* *Political behavior and attitudes module*: voting intention, party identification, affective polarization, political efficacy, online and offline political activity. Affective polarization can be measured through adapted versions of established survey instruments, including feeling thermometers, trait ratings of political groups, trust measures, and social-distance items [[Iyengar, Sood, and Lelkes 2012](https://pcl.sites.stanford.edu/sites/g/files/sbiybj22066/files/media/file/iyengar-poq-affect-not-ideology.pdf); [Druckman and Levendusky 2019](https://faculty.wcas.northwestern.edu/jnd260/pub/Druckman%20and%20Levendusky%20Affective%20Polarization%20Measurement.pdf)].
 
 Analysis: OLS/logit regression of adoption and utilization capability on political participation outcomes, with gender as the primary moderator; mediation analysis for the gender → utilization capability → participation pathway; embedded conjoint experiment measuring gendered reception of AI-assisted political content.
 
@@ -64,24 +64,4 @@ Extend the design to a second Asian country with high AI adoption but a differen
 
 * Survey-embedded utilization tasks may not capture naturalistic AI use; respondents may perform differently in a survey context than in everyday political engagement.
 * Cross-sectional Phase 1 data limits causal identification; causal claims require longitudinal follow-up or quasi-experimental leverage.
-* The Korean gender gap has multiple co-occurring causes (labor market precarity, military service, social media algorithms); isolating the marginal contribution of AI utilization gaps requires careful sensitivity analysis.
-
-### References
-
-**AI adoption gaps**
-
-* Otis, N. G., Solène Delecourt, Kate Cranney, and Rembrand Koning. 2024. "Global Evidence on Gender Gaps and Generative AI." Harvard Business School Working Paper No. 25-023. https://d3.harvard.edu/the-gender-divide-in-generative-ai-a-global-challenge/.
-* Bensoussane, Inès, et al. 2024. "The Gen AI Gender Gap." *Economics Letters*. https://www.sciencedirect.com/science/article/abs/pii/S0165176524002982.
-* Wang, Vivian. 2025. "The Gender Trust Gap in AI: Implications for Democracy." *Carnegie Endowment for International Peace*. https://carnegieendowment.org/china/posts/2025/10/ai-gender-trust-gap-democracy-implications.
-* Whillans, Ashley, et al. 2025. "Gender Differences in Generative AI Adoption and Use." Haas School of Business, UC Berkeley.
-
-**Korean gender politics**
-
-* Lee, Soohyun Christine. 2025. "Anti-Gender Politics, Economic Insecurity, and Right-Wing Populism among Young Men in South Korea." *Social Politics* 32(3): 584–614. https://academic.oup.com/sp/article/32/3/584/7826751.
-* East Asia Forum. 2024. "Gender Is Reshaping South Korea's Electoral Landscape." https://eastasiaforum.org/2024/07/09/gender-is-reshaping-south-koreas-electoral-landscape/.
-* Steger, Isabella. 2025. "South Korea's 2025 Election: A Test for Gender Equality." *The Diplomat*. https://thediplomat.com/2025/05/south-koreas-2025-election-a-test-for-gender-equality/.
-* Korea Times Editorial Board. 2024. "Gender Divide." *The Korea Times*. https://www.koreatimes.co.kr/www/opinion/2024/12/197_387003.html.
-
-**Technology and political participation**
-
-* Bail, Christopher A., et al. 2018. "Exposure to Opposing Views on Social Media Can Increase Political Polarization." *PNAS* 115(37): 9216–9221.
+* The Korean gender gap has multiple co-occurring causes, including labor market precarity, military service, online gender conflict, and party-level anti-feminist mobilization; isolating the marginal contribution of AI utilization gaps requires careful sensitivity analysis [[Lee 2025](https://academic.oup.com/sp/article/32/3/584/7826751); [You 2024](https://eastasiaforum.org/2024/07/09/gender-is-reshaping-south-koreas-electoral-landscape/); [Korea Times Editorial Board 2024](https://www.koreatimes.co.kr/www/opinion/2024/12/197_387003.html)].
