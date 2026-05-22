@@ -1,5 +1,5 @@
 ---
-title: "Can AI Do Social Science Research?"
+title: Can AI Conduct Social Science Research?
 slug: 2026-03-01-AutoResearch.md
 date: 2026-03-01
 last_modified_at: 2026-03-12
