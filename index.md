@@ -13,7 +13,8 @@ permalink: /
   style="display: block; width: 100%; max-width: 980px; border: 1px solid #ddd; border-radius: 8px;">
 
 <p style="margin-top: 0.9rem;">
-I am an MA candidate at Seoul National University specializing in Asian International Relations and the political implications of AI. My research began with a constructivist lens, focusing on how historical identities and elites' perceptions shape contemporary foreign policy. Recently, I have shifted my focus toward micro-level political behavior, specifically exploring its intersection with AI and identity, and how this synergy reconfigures individual political actions.
+I hold an MA from Seoul National University, where I specialized in Asian International Relations and studied the political implications of AI. My research began with a constructivist focus on how historical identities and elite perceptions shape contemporary foreign policy. More recently, I have turned to micro-level political behavior, particularly how AI and identity interact to reshape individual political action.
+</p>
 
 <p>
   Before beginning my master's program, I studied Thai and Japanese at Hankuk University of Foreign Studies, worked at Seoul National University's Asia Center, and served as a Junior Scholar at the Wilson Center.
@@ -22,14 +23,3 @@ I am an MA candidate at Seoul National University specializing in Asian Internat
 <p>
   This site collects my notes, data projects, and experimental writing on political science, regional affairs, and research workflows.
 </p>
-
-<section class="home-link-grid" aria-label="Featured site sections">
-  <a class="home-link-card" href="{{ '/research-ideas/' | relative_url }}">
-    <span class="home-link-card__label">Research Ideas</span>
-    <span class="home-link-card__text">Early-stage concept notes and project sketches.</span>
-  </a>
-  <a class="home-link-card" href="{{ '/works-in-progress/' | relative_url }}">
-    <span class="home-link-card__label">Works in Progress</span>
-    <span class="home-link-card__text">Draft-stage papers and active revision projects.</span>
-  </a>
-</section>
