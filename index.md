@@ -13,7 +13,7 @@ permalink: /
   style="display: block; width: 100%; max-width: 980px; border: 1px solid #ddd; border-radius: 8px;">
 
 <p style="margin-top: 0.9rem;">
-I hold an MA from Seoul National University, where I specialized in Asian International Relations and studied the political implications of AI. My research began with a constructivist focus on how historical identities and elite perceptions shape contemporary foreign policy. More recently, I have turned to micro-level political behavior, particularly how AI and identity interact to reshape individual political action.
+I hold an MA from Seoul National University, where I specialized in Asian International Relations. My research began with a constructivist focus on how historical identities and elite perceptions shape contemporary foreign policy. More recently, I have expanded this focus beyond elites to examine how identity and political perceptions are shaped among the broader public, including how AI influences these processes and political behavior.
 </p>
 
 <p>
