@@ -2,7 +2,7 @@
 title: Can AI Conduct Social Science Research?
 slug: 2026-03-01-AutoResearch.md
 date: 2026-03-01
-last_modified_at: 2026-03-12
+last_modified_at: 2026-06-26
 tags:
   - Academia
   - AI
@@ -46,7 +46,7 @@ Anyway, in the current situation where faculty are also getting better and bette
 
 Professor Sean later posted follow-up tweets too, perhaps especially because he was conscious of the reaction on Bluesky([follow-up 1](https://x.com/seanjwestwood/status/2026076268735742443?s=20), [follow-up 2](https://x.com/seanjwestwood/status/2026852781676528015?s=20)). What kind of place is Bluesky, anyway?
 
-#### Is AI Already Better at Research Than Many Professors? (added 26/03/04)
+#### Is AI Already Better at Research Than Many Professors? (added March 4, 2026)
 
 - Professor Alexander Kustov of the Keough School of Global Affairs at the University of Notre Dame also posted the provocative tweet, "[AI can already do social science research better than most professors with PhDs](https://x.com/akoustov/status/2028623202306428986?s=20)." In his [blog](https://alexanderkustov.substack.com/p/academics-need-to-wake-up-on-ai), he says that "much of the opposition to AI is status protection dressed up as principle," and he specifically points to scholars on Bluesky as denying what is happening.
   - As an aside, the author said that the blog article itself was written 100% with Claude, but according to Pangram, which had been promoted on Twitter as especially good at detecting AI-written text, it apparently counted as ["Fully Human Written"](https://x.com/akoustov/status/2028877336007840048?s=20).
@@ -56,7 +56,7 @@ Professor Sean later posted follow-up tweets too, perhaps especially because he 
 
 - In the end, a commentary also appeared from the Brookings Institution dealing with this state of affairs in academia([the train has left the station](https://www.brookings.edu/articles/the-train-has-left-the-station-agentic-ai-and-the-future-of-social-science-research/)).
 
-#### Follow-up to the Follow-up (added 26/03/05)
+#### Follow-up to the Follow-up (added March 5, 2026)
 
 - Professor Alexander Kustov's [follow-up post](https://alexanderkustov.substack.com/p/academics-need-to-wake-up-on-ai-part)
 - Occidental College professor Igor Logvinenko's Twitter article, [Why Academia Can't Think Clearly About AI](https://x.com/igorlogvinenko/status/2029344322097955060)
