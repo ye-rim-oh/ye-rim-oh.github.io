@@ -3,6 +3,7 @@ title: Can AI Conduct Social Science Research?
 slug: 2026-03-01-AutoResearch.md
 date: 2026-03-01
 last_modified_at: 2026-06-26
+published: false
 tags:
   - Academia
   - AI
