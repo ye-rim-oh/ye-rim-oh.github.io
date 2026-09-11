@@ -15,3 +15,7 @@ An interactive dashboard of political science PhD admissions results reported on
 ### [Methods Hub](https://ye-rim-oh.github.io/methods-hub/)
 
 A curated research methods reading hub for political science and related social science work.
+
+### [Korean Party Policy Matcher](https://ye-rim-oh.github.io/kr-party-policy/)
+
+A public web app comparing the policy positions of six major South Korean parties across 10 policy domains and 48 items. Users can compare party positions, explore the supporting sources, and receive a party match based on their responses.
