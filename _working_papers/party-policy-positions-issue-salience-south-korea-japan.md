@@ -1,5 +1,6 @@
 ---
-title: "Party Policy Positions and Issue Salience: Evidence from South Korea and Japan"
+title: "Party Policy Positions and Issue Salience: Evidence from South Korea and
+  Japan"
 date: 2026-09-11
 status: Draft
 author_profile: false
@@ -15,4 +16,3 @@ This working paper examines whether familiar conservative, progressive, and libe
 
 The current draft uses fourteen provisionally comparable policy items and speech records from March to July 2026. Its results are conditional on the classification procedure, the selected policy domains, and the available country-specific party samples.
 
-This paper is work in progress. The analysis and interpretation remain under revision, and this draft should not be treated as a final published version.
