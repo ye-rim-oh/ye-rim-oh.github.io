@@ -1,29 +1,8 @@
-/* Research page layout, kept separate from the theme stylesheet. */
-.home-work-list article {
-  margin: 0 0 1.25rem;
-}
-
-.home-work-list h3 {
-  margin: 0 0 0.35rem;
-  font-size: 1.1rem;
-  line-height: 1.45;
-}
-
-.home-work-list p,
+/* Readable paper summaries and embedded documents. */
 .working-paper-summary {
   margin: 0;
   color: #555;
   font-size: 0.95rem;
-}
-
-.home-photo {
-  display: block;
-  width: 100%;
-  height: 180px;
-  margin-top: 1.5rem;
-  object-fit: cover;
-  border: 1px solid #ddd;
-  border-radius: 8px;
 }
 
 .paper-preview {
@@ -36,10 +15,6 @@
 }
 
 @media (max-width: 768px) {
-  .home-photo {
-    height: 120px;
-  }
-
   .paper-preview {
     height: 480px;
   }
