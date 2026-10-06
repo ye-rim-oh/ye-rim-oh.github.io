@@ -16,6 +16,7 @@ This page collects draft-stage papers that I am actively revising and developing
           {% if paper.date %}{{ paper.date | date: "%Y-%m-%d" }}{% endif %}
           {% if paper.status %} | {{ paper.status }}{% endif %}
         </div>
+        {% if paper.summary %}<p class="working-paper-summary">{{ paper.summary | escape }}</p>{% endif %}
       </article>
     {% endfor %}
   {% else %}
